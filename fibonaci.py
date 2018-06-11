@@ -6,7 +6,7 @@ Phi = (1+sqrt5)/2   #Golden ratio
 phi = Phi-1         #Golden ratio-1
 
 def fibonaci_at(i):
-    # Generates fibonaci of ith rank using Binte's formula using golden ration(phi)
+    # Generates fibonaci of ith rank using Binte's formula using golden ratio(phi)
     x = pow(Phi,i)/sqrt5
     y = pow(-phi,i)/sqrt5
     fn = round(x-y)
