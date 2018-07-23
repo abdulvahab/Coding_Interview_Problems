@@ -1,0 +1,8 @@
+berry@example.com
+simon@bigcomp.com
+jane@hotmail.com
+arthur@example.com
+doris@example.com
+john@bigcomp.com
+vahab_n@yahoo.com
+vahab.n@yahoo.com
