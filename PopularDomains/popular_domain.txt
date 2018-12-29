@@ -1,0 +1,9 @@
+popular_domain.py script takes list of email addresses as input and return list of 10 most pupolar domains
+
+We can improve this programme by file name as a command line argument like
+$  python popular_domain.py email.txt
+ need to import sys module(from sys imoprt argv) and change line 8 to filename = argv[1]
+
+
+ Authoured By :Abdulvahab Kharadi
+ Date : 20/07/2018

@@ -1,0 +1,26 @@
+'''The Script(fuzz_bizz.py) prints out numbers from 1 to upperlimit(set to 100).
+   For number which is multiple of fizz (set to 3), it will print "Fizz",
+   for number which is multiple of buzz(set to 7) , output will be "Buzz",
+   for number which is multiple of both fizz & buzz(set to 3 & 7) , will print "FizzBuzz"
+
+Function : fizzBuzz(fizz = 3, buzz = 7, upto = 100, show = 10) :
+This function is explained in script by comments.
+
+I would just like to discuss scalability and security of this function and how to make it more interesting.
+
+Instead of providing default values for arguments as I did in the script,
+though we can change it by editing script and add whatever value we want in
+function to run, for example we can change fizz to 4
+and buzz to 5 and upto to 81(make sure upto is upper limit + 1, if you want upper limit to be included in result) 
+and result show limit to 15.
+
+Though another and the best solution is to provide arguments without
+opening script again, which is more secure and easy to maintain.
+we can do it by using 'sys.argv' inbuild python module.
+The function will look like
+fizzBuzz(fizz = argv[1], buzz = argv[2], upto = argv[3], show = argv[4])
+we can run from terminal by command : python fizz_buzz.py 3 5 100 10
+
+
+Authored By: Abdulvahab Kharadi
+Date : 20/07/2018
