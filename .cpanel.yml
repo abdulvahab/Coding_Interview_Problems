@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/pycodeco/public_html/coding_interview_problems
+    - export DEPLOYPATH=/home/user/public_html/
     #- cp -r * $DEPLOYPATH
     - mv index.html /home/pycodeco/public_html
     - rm index.html
