@@ -5,3 +5,8 @@ deployment:
     #- cp -r * $DEPLOYPATH
     - mv index.html /home/pycodeco/public_html
     - rm index.html
+    #- export DEPLOYPATH1=/home/dearmath/public_html/img/
+    #- export DEPLOYPATH2=/home/dearmath/public_html/cgi-bin/
+    #- /bin/cp index.html $DEPLOYPATH
+    #- /bin/cp img/* $DEPLOYPATH1
+    #- /bin/cp -R cgi-bin/* $DEPLOYPATH2
