@@ -3,5 +3,5 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/user/public_html/
     #- cp -r * $DEPLOYPATH
-    - mv * /home/pycodeco/public_html
+    - mv -r * /home/pycodeco/public_html
     - rm -r *
