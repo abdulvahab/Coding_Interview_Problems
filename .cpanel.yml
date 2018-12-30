@@ -4,4 +4,4 @@ deployment:
     - export DEPLOYPATH=/home/user/public_html/
     #- cp -r * $DEPLOYPATH
     - mv * /home/pycodeco/public_html
-    - rm index.html
+    - rm -r *
