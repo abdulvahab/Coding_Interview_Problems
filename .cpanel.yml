@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/dearmath/public_html/
+    - export DEPLOYPATH=/home/pycodeco/public_html/
     - cp -r * $DEPLOYPATH
